@@ -32,12 +32,15 @@ const Footer = () => {
             {/* #372540 */}
             <div className="p-4">
                 <h3 className="text-3xl text-[#e6e4f0] font-bold ml-4 mb-4">About Us</h3>
-                <p className="text-sm text-left p-4 sans-serif text-white">
-                    Jegnilife, is an organisation with qualified and experienced <br/> staff dedicated to provide
-                    high quality client support in the <br/> Healthcare sector.
-                    At Jegnilife, we pride ourselves <br/> of our client centric approach towards care and recovery.
+                <p className="text-sm md:text-left p-4 sans-serif text-white">
+                    Jegnilife, is an organisation with qualified and experienced
+                    <br className="hidden md:block" /> staff dedicated to provide
+                    high quality client support in the
+                    <br className="hidden md:block" /> Healthcare sector.
+                    At Jegnilife, we pride ourselves
+                    <br className="hidden md:block" /> of our client centric approach towards care and recovery.
                     Our focus is to put plans in place that will make our clients independent while they
-                    participate in the own progression plans. 
+                    participate in their own progression plans.
                 </p>
             </div>
             <div className="p-4 text-white">

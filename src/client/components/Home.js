@@ -69,9 +69,9 @@ const Home = () => {
         <div className="w-full md:w-3/5 mt-20 mr-2 md:mb-10">
           <div className="inset-0 overflow-hidden z-1">
             <div className="flex items-center justify-center bg-black bg-opacity-0">
-              <h1 className="text-5xl md:text-7xl lg:text-[175px] font-bold text-transparent bg-clip-text bg-fill-us">
+              <h1 className="text-5xl md:text-7xl lg:text-[160px] font-bold text-transparent bg-clip-text bg-fill-us">
               <span className="wave-animation"></span>
-                Empower
+                CARE & SUPPORT
               </h1>
             </div>
           </div>

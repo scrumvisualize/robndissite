@@ -28,7 +28,7 @@ const AboutUs = () => {
             <TopSnippet />
             <Navbar />
             <div className="flex flex-col md:flex-row bg-sky-50 ">
-                <div className="md:w-1/2 object-contain">
+                <div className="md:w-1/2 mb-48 md:mb-24 object-contain">
                     <img src="images/aboutus.jpg" alt="Image" className="w-[770px] mt-1 mb-[-10px] bg-no-repeat bg-cover object-cover" />
                     <div className="md:w-full bg-sky-50 p-8 flex flex-col justify-center">
                     <h1 className="text-xl font-bold mb-4 text-gray-600">About JEGNI LIFE</h1>
@@ -43,8 +43,8 @@ const AboutUs = () => {
                     </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 h-[600px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] mb-1 justify-center">
-                    <p className="text-base mt-20 text-gray-700">
+                <div className="md:w-1/2 h-[600px] md:h-[700px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] md:mb-10 mb-72 justify-center">
+                    <p className="text-base mt-16 text-gray-700">
                     Our team of dedicated professionals goes above and beyond to ensure that our clients receive the highest level of care and support throughout their journey with us. We understand that recovery and progress are deeply personal and sensitive processes, which is why we approach each client with empathy, compassion, and respect.
                     </p>
                     <p className="text-base mt-5 text-gray-700">
