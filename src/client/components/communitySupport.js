@@ -40,7 +40,7 @@ const ServiceOne = () => {
                     <img
                         src="images/communitySupport.png"
                         alt="Image"
-                        className="w-full h-[800px] md:ml-2"
+                        className="w-full h-[902px] md:ml-2"
                     />
                 </div>
                 <div className="md:w-1/2 bg-sky-50 p-4 md:p-2">

@@ -37,9 +37,9 @@ code {
 .wave-animation {
   position: absolute;
   height: 110px;
-  width: 400px;
+  width: 350px;
   top: 300px;
-  left: 1000px;
+  right: 20px;
   bottom: 140px;
   background: linear-gradient(to right, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.15) 100%);
   transform: translateX(100%);
