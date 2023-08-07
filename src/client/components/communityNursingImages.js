@@ -26,7 +26,7 @@ const ThreeColumnImageLayout = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
                 <div className="text-center">
                     <img
-                        src="images/communityNursing.jpg"
+                        src="images/commNursing5.png"
                         alt="Image 1"
                         className="w-full h-[402px] mb-2"
                     />

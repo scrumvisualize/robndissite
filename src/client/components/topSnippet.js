@@ -35,13 +35,13 @@ const TopSnippet = () => {
 
         <div className="flex flex-col md:flex-row">
             <div className="w-full md:w-1/3 bg-[#2e2657] flex items-center justify-center md:justify-start">
-                <img src="images/phone.png" className="w-[60px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[-50px] md:ml-0 md:mt-2" alt="Call" />
+                <img src="images/phone.png" className="w-[60px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[-40px] md:ml-0 md:mt-2" alt="Call" />
                 <span className="text-white text-sm py-2 md:py-0">1800 800 124</span>
                 <span className="text-white px-2 py-2">|</span>
             </div>
 
             <div className="w-full md:w-1/3 bg-[#2e2657] md:flex items-center justify-center md:justify-start">
-                <img src="images/email-50.png" className="hidden md:block h-6 md:mt-2 md:mr-2 ml-10 md:ml-[-140px]" alt="Email" />
+                <img src="images/email-50.png" className="hidden md:block h-6 md:mt-2 md:mr-2 md:ml-[-140px]" alt="Email" />
                 <span className="hidden md:block text-white md:ml-1 text-sm py-2 ml-10">jegnilifeinfo@gmail.com</span>
             </div>
 
