@@ -1,28 +1,3 @@
-// import React from 'react';
-// import { GoogleMap, useLoadScript, Marker } from '@react-google-maps/api';
-
-// const MapComponent = () => {
-//   // Replace YOUR_GOOGLE_MAPS_API_KEY with your actual API key
-//   const { isLoaded, loadError } = useLoadScript({
-//     googleMapsApiKey: 'AIzaSyDg9y_gnqOGHjnMNENNBpEwtn7nzwf1jWA',
-//   });
-
-//   const center = { lat: -27.4697, lng: 153.0251 }; // Set the initial center of the map
-
-//   if (loadError) return <div>Error loading maps</div>;
-//   if (!isLoaded) return <div>Loading maps</div>;
-
-//   return (
-//     <div style={{ height: '400px', width: '100%' }}>
-//       <GoogleMap mapContainerStyle={{ height: '100%', width: '100%' }} center={center} zoom={10}>
-//         <Marker position={center} />
-//       </GoogleMap>
-//     </div>
-//   );
-// };
-
-// export default MapComponent;
-
 import React from 'react';
 import L from 'leaflet';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
