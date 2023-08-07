@@ -43,7 +43,7 @@ const Footer = () => {
             <div className="p-4 text-white">
                 <h3 className="text-3xl text-[#e6e4f0] font-bold mb-4">Contact Us</h3>
                 <ul>
-                    <li className="text-sm font-bold mb-2">1800 800 124</li>
+                    <li className="text-sm font-bold mb-2"><a href="tel:1800800124" className='mt-1'>1800 800 124</a></li>
                     <li className="text-sm font-bold mb-2">jegnilifeinfo@gmail.com</li>
                     <li className="text-sm font-bold mb-2">NDIS Provider Registration ID: 00-ABCD12345</li>
                     <li className="text-sm font-bold mb-2">ABN 00 123 000 111</li> 

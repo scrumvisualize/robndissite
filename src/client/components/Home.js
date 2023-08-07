@@ -9,12 +9,7 @@ import Footer from './footer';
 import Guide from './guide';
 
 const Home = () => {
-  const phoneNumber = '1800800124'; // Replace this with the actual phone number
-
-  const handlePhoneNumberClick = () => {
-    window.location.href = `tel:${phoneNumber}`;
-  };
-  
+ 
   return (
 
     <div className='flex-wrap relative'>
@@ -65,8 +60,7 @@ const Home = () => {
             </li>
           </ul>
           <button className="flex justify-start mx-4 mb-4 select-none bg-amber-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
-            {/* <span onClick={handlePhoneNumberClick} className='mt-1'>Call 1800 800 124</span> */}
-            <a href="tel:1800800124" className='mt-1'>Call 1800800124</a>
+            <a href="tel:1800800124" className='mt-1'>Call 1800 800 124</a>
             <svg className="w-4 h-4 text-slate-50 mx-3 mt-2 mb-2 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
               <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
             </svg>

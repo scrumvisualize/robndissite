@@ -106,7 +106,8 @@ const AboutUs = () => {
                         <p className="text-base ml-2 mt-4 text-gray-700 px-8">Connecting with clients on regular basis</p>
                     </div>
                     <button className="w-full md:w-200 h-12 md:h-10 flex justify-center items-center mb-20 md:mt-10 my-2 md:mb-20 select-none bg-[#F27267] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
-                        Call us to know more ? <img src="images/phone.png" className="h-10 mr-3 md:h-10 md:mr-3" alt="Call" />  &#8594; 1800 800 124 
+                        Call us to know more ? <img src="images/phone.png" className="h-10 mr-3 md:h-10 md:mr-3" alt="Call" />
+                        <a href="tel:1800800124" className='mt-1'> &#8594; 1800 800 124</a>
                     </button>
                 </div>
                 <div className="md:w-1/2 object-contain">
