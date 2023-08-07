@@ -42,7 +42,7 @@ const TopSnippet = () => {
 
             <div className="w-full md:w-1/3 bg-[#2e2657] md:flex items-center justify-center md:justify-start">
                 <img src="images/email-50.png" className="hidden md:block h-6 md:mt-2 md:mr-2 ml-20 md:ml-[-110px]" alt="Email" />
-                <span className="hidden md:block text-white md:ml-1 text-sm py-2 ml-5">jegnilifeinfo@gmail.com</span>
+                <span className="hidden md:block text-white md:ml-1 text-sm py-2 ml-5">contact@jegnilife.com.au</span>
             </div>
 
             <div className="w-full md:w-1/3 bg-[#2e2657] p-2 md:pr-10 flex items-center justify-center md:justify-end">

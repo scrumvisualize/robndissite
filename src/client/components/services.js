@@ -116,7 +116,7 @@ const Services = () => {
                             </div>
                         </div>
                         <h3 className="text-2xl mb-5 font-bold">Supported Independent Living</h3>
-                        <p className="max-w-lg text-xl font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
+                        <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             Supported Independent Living (SIL) is a type of support provided to individuals with disabilities who
                             have higher support needs. It is aimed to help these individuals live as independently as possible
                             while receiving assistance with various daily..
@@ -142,7 +142,7 @@ const Services = () => {
                             </div>
                         </div>
                         <h3 className="text-2xl mb-4 font-bold">Community Support</h3>
-                        <p className="max-w-lg text-xl font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
+                        <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             It is evident that community support plays a crucial role in enriching the lives of individuals
                             regardless of disabilities. Engaging in social and recreational activities positively impacts individuals’
                             quality of life. This not only uplifts mood but also fosters personal 
@@ -169,7 +169,7 @@ const Services = () => {
                             </div>
                         </div>
                         <h3 className="text-2xl mb-4 font-bold">Community Nursing</h3>
-                        <p className="max-w-lg text-xl font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
+                        <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             At Jegni Life we offer a wide range of low-intensity nursing support to the individuals who have chronic health
                             conditions, disabilities, or other medical conditions that impact their ability to independently
                             perform daily activities. The program is designed to provide essential care and assistance..
@@ -195,7 +195,7 @@ const Services = () => {
                             </div>
                         </div>
                         <h3 className="text-2xl mb-4 font-bold">Group Based Activities</h3>
-                        <p className="max-w-lg text-xl font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
+                        <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             Jegni Life aims to provide a platform for individuals to engage in community participation and group
                             activities, with a particular focus on improving social interactions and mental well-being.
                             Identifying Enjoyable Groups: Jegni Life helps individuals to find and connect

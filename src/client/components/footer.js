@@ -32,7 +32,7 @@ const Footer = () => {
             {/* #372540 */}
             <div className="p-4">
                 <h3 className="text-3xl text-[#e6e4f0] font-bold ml-4 mb-4">About Us</h3>
-                <p className="p-4 sans-serif text-white">
+                <p className="text-sm text-left p-4 sans-serif text-white">
                     Jegnilife, is an organisation with qualified and experienced <br/> staff dedicated to provide
                     high quality client support in the <br/> Healthcare sector.
                     At Jegnilife, we pride ourselves <br/> of our client centric approach towards care and recovery.
@@ -44,9 +44,9 @@ const Footer = () => {
                 <h3 className="text-3xl text-[#e6e4f0] font-bold mb-4">Contact Us</h3>
                 <ul>
                     <li className="text-sm font-bold mb-2"><a href="tel:1800800124" className='mt-1'>1800 800 124</a></li>
-                    <li className="text-sm font-bold mb-2">jegnilifeinfo@gmail.com</li>
-                    <li className="text-sm font-bold mb-2">NDIS Provider Registration ID: 00-ABCD12345</li>
-                    <li className="text-sm font-bold mb-2">ABN 00 123 000 111</li> 
+                    <li className="text-sm font-bold mb-2">contact@jegnilife.com.au</li>
+                    {/* <li className="text-sm font-bold mb-2">NDIS Provider Registration ID: 00-ABCD12345</li>
+                    <li className="text-sm font-bold mb-2">ABN 00 123 000 111</li>  */}
                     <span>
                         <img src="images/modernmap.png" className="h-[130px] md:h-[150px] ml-[-30px] md:ml-[-30px]" alt="AUS"/>
                     </span>
@@ -74,7 +74,7 @@ const Footer = () => {
             <div className="p-4 text-white">
                 <h3 className="text-3xl text-[#e6e4f0] font-bold mb-4">Quick Links</h3>
                 <ul>
-                    <li><span onClick={() => navigate('/')} className="text-sm font-bold mb-2 block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</span></li>
+                    <li><span onClick={() => navigate('/')} className="text-sm font-bold mb-2 block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700">Home</span></li>
                     <li><span onClick={() => navigate('/aboutus')} className="text-sm font-bold mb-2 block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About Us</span></li>
                     <li><span onClick={() => navigate('/serviceOne')} className="text-sm font-bold mb-2 block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Supported Independent Living</span></li>
                     <li><span onClick={() => navigate('/communitySupport')} className="text-sm font-bold mb-2 block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Community Support</span></li>
@@ -108,8 +108,8 @@ const Footer = () => {
                 <img src="images/scroll.png" className="h-10 md:h-10 rounded-full" alt="Scroll to Top" />
             </button>
             <div className="flex">
-                <p className="text-xs text-[#ffffff] md:px-8">2023 @JEGNI LIFE Pty Ltd</p>
-                <p className="text-[8px] text-[#e8f2ff] md:mt-1 md:px-8">Developed by Vinod Mathew</p>
+                <p className="text-xs text-[#ffffff] ml-8 mb-4 md:mb-2 md:ml-8">2023 @JEGNI LIFE Pty Ltd</p>
+                <p className="text-[8px] text-[#e8f2ff] ml-4 md:mt-1 md:px-8">Developed by Vinod Mathew</p>
             </div>
         </div>
 
