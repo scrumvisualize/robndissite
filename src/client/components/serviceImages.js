@@ -62,7 +62,7 @@ const ThreeColumnImageLayout = () => {
                         className="w-full h-[419px] mb-2"
                     />
                     <p className="bg-slate-200 bg-opacity-30 p-4 text-left">
-                        {buttonStates.serviceBox3 ? serviceBox1Text : `${serviceBox3Text.substring(0, 192)} `}
+                        {buttonStates.serviceBox3 ? serviceBox3Text : `${serviceBox3Text.substring(0, 192)} `}
                         <button id="serviceBox3" onClick={() => handleClick("serviceBox3")} className="flex justify-center items-center select-none bg-[#fafafa] text-blue-900 rounded-full border border-2 border-[#F27267] w-[150px] md:h-[30px] mx-20 mb-20 md:mx-36 my-2 md:mb-20">
                             {buttonStates.serviceBox3 ? "Read less" : "Read more..."}
                         </button>
