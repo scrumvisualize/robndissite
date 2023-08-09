@@ -11,8 +11,8 @@ const app = express();
 // const port = 8000;
 
 const port = process.env.PORT || 8000;
-const gmailUserEmail = process.env.GMAIL_USER_EMAIL;
-const gmailAppPassword = process.env.GMAIL_APP_PASSWORD;
+const godaddyUserEmail = process.env.GODADDY_USER_EMAIL;
+const godaddyEmailPassword = process.env.GODADDY_EMAIL_PASSWORD;
 const recipientJegniLifeEmail = process.env.JEGNILIFE_RECIPIENT_EMAIL;
 
 app.use(cors()) // Use this after the variable declaration
@@ -33,13 +33,22 @@ app.post('/service/emailtransfer', async (req, res) => {
   console.log("Contact details in server side:: "+senderEmail, senderMobile, senderComments );
 
   // Create a nodemailer transporter
+  // const transporter = nodemailer.createTransport({
+  //   service: 'Gmail', // Replace with your email service provider
+  //   auth: {
+  //     user: gmailUserEmail, // Replace with your email
+  //     pass: gmailAppPassword, // Replace with your app password
+  //   },
+  // });
+
   const transporter = nodemailer.createTransport({
-    service: 'Gmail', // Replace with your email service provider
+    service: 'smtpout.secureserver.net', // Replace with your godaddy email service provider
     auth: {
-      user: gmailUserEmail, // Replace with your email
-      pass: gmailAppPassword, // Replace with your app password
+      user: godaddyUserEmail, // Replace with your godaddy email
+      pass: godaddyEmailPassword, // Replace with your godaddy email password
     },
   });
+
 
   try {
     await transporter.sendMail({
