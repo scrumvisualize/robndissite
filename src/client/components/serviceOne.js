@@ -55,8 +55,7 @@ const ServiceOne = () => {
                     <p className="text-base ml-2 mt-2 text-gray-700 px-4">
                         Supported Independent Living (SIL) is a type of support provided to individuals with disabilities who
                         have higher support needs. It is aimed to help these individuals live as independently as possible
-                        while receiving assistance with various daily tasks. SIL is funded by the National Disability Insurance
-                        Scheme (NDIS) in Australia and is designed to provide personalized and tailored support to meet the
+                        while receiving assistance with various daily tasks. Support independent service is designed to provide personalized and tailored support to meet the
                         specific needs of each individual.
                     </p>
                     <p className="text-base ml-2 mt-2 text-gray-700 px-4">
