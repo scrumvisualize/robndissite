@@ -42,7 +42,16 @@ app.post('/service/emailtransfer', async (req, res) => {
   // });
 
   const transporter = nodemailer.createTransport({
-    service: 'smtpout.secureserver.net', // Replace with your godaddy email service provider
+    //service: 'smtpout.secureserver.net', // Replace with your godaddy email service provider
+    host: "smtpout.secureserver.net", //smtp.office365.com
+    secure:true,
+    secureConnection: false,
+    tls: {
+      ciphers:'SSLv3'
+    },
+    requireTLS: true,
+    port:465, //587 25
+    debug:true,
     auth: {
       user: godaddyUserEmail, // Replace with your godaddy email
       pass: godaddyEmailPassword, // Replace with your godaddy email password

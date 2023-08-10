@@ -29,6 +29,7 @@ const NavbarItems = () => {
                     {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-20 mr-3" alt="Flowbite Logo" /> */}
                     <img src="images/color1_logo_try2.png" className="h-14 mr-3" alt="JEGNI LIFE" />
                     <span className="self-center text-2xl font-montserrat text-3xl font-bold whitespace-nowrap dark:text-white text-[#D6AE38]">JEGNI LIFE</span>
+                      <p className="text-sm mt-6 ml-[-145px] text-[#8f8e8b] pt-2"> <br/>  disability service provider</p>
                 </a>
                 <button data-collapse-toggle="navbar-dropdown" type="button" onClick={toggleMobileMenu} className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-dropdown" aria-expanded="false">
                     <span className="sr-only">Open main menu</span>
