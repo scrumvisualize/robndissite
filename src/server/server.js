@@ -19,9 +19,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: 'https://www.jegnilife.com.au',
+  origin: '*',
   methods: 'GET, POST, PUT, DELETE',
-  allowedHeaders: 'Authorization, Content-Type',
+  allowedHeaders: 'Authorization, Content-Type', 
   exposedHeaders: 'Content-Length',
   credentials: true,
   maxAge: 3600
