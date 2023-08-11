@@ -31,6 +31,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Set up a route to handle the email sending
 app.post('/service/emailtransfer', async (req, res) => {
 
+  res.header('Access-Control-Allow-Origin', 'https://jegnilife.com.au');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Athorization, Content-Type');
+  res.header('Access-Control-Expose-Headers', 'Content-Length');
+  res.header('Access-Control-Max-Age', '3600');
+
   const senderEmail = req.body.email;
   const senderMobile = req.body.mobile;
   const senderComments = req.body.comments;
