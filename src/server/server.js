@@ -19,12 +19,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 const corsOptions = {
-  origin: '*',
-  methods: 'GET, POST, PUT, DELETE',
-  allowedHeaders: 'Authorization, Content-Type', 
-  exposedHeaders: 'Content-Length',
-  credentials: true,
-  maxAge: 3600
+  origin:'*',
+  credentials:true,
+  optionSuccessStatus:200,
 };
 
 app.use(cors(corsOptions)) // Use this after the variable declaration
