@@ -15,11 +15,14 @@ const godaddyUserEmail = process.env.GODADDY_USER_EMAIL;
 const godaddyEmailPassword = process.env.GODADDY_EMAIL_PASSWORD;
 const recipientJegniLifeEmail = process.env.JEGNILIFE_RECIPIENT_EMAIL;
 
-app.use(cors()) // Use this after the variable declaration
+//Allow request from specific origin:
 
-// app.use(cors({
-//   origin: "http://localhost:3000"
-// }));
+const corsOptions = {
+  origin : 'https://www.jegnilife.com.au',
+  optionsSuccessStatus : 200,
+}
+
+app.use(cors(corsOptions)) // Use this after the variable declaration
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
