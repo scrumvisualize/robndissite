@@ -57,7 +57,7 @@ app.post('/service/emailtransfer', async (req, res) => {
       to: recipientJegniLifeEmail, // Replace with the recipient's email
       subject: 'Enquiry request from JEGNI Life website',
       text: `SendersEmail: ${senderEmail}\nMobile Number: ${senderMobile}\nComments: ${senderComments}`,
-      html: `<div><img src="https://jegnilife.com.au/images/community.png" alt="community"></img></div>`,
+      html: `<div><p>Senders Email: ${senderEmail}</p><p>Mobile Number: ${senderMobile}</p><p>Mobile Number: ${senderComments}</p><img src="https://jegnilife.com.au/images/emailEnquiry.png" alt="community"></img></div>`,
     });
     res.status(200).json({ success: true });
   } catch (e) {
