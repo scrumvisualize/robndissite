@@ -114,7 +114,7 @@ const AboutUs = () => {
                     <img src="images/abtus.PNG" alt="Image" className="w-full h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
                 </div> */}
                 <div className="md:w-1/2">
-                    <img src="images/abtus1.PNG" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
+                    <img src="images/abtus1.png" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
                 </div>
             </div>
             <div className="flex flex-col md:flex-row">
