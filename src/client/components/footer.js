@@ -88,7 +88,7 @@ const Footer = () => {
                     <li><span onClick={() => navigate('/contact')} className="text-sm font-bold block pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</span></li>
                     {/* <li><button onClick={() => navigate('/login')} className="text-sm font-bold block mb-2 pl-5 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-400 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Login</button></li> */}
                 </ul>
-                <div className="flex flex-wrap mt-4">
+                <div className="portrait:hidden flex flex-wrap mt-4">
                     <div className="md:w-1/3 py-4 ml-4 md:ml-[5px]">
                         <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.facebook.com/profile.php?id=100094878867837">
                             <img src="images/fbicon.png"></img>
@@ -100,6 +100,23 @@ const Footer = () => {
                         </a>
                     </div>
                     <div className="md:w-1/3 p-4 md:ml-[-90px] ml-[-5px]">
+                        <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.instagram.com/jegnilife/">
+                            <img src="images/instagram.png"></img>
+                        </a>
+                    </div>
+                 </div>
+                 <div className="landscape:hidden flex flex-wrap mt-4">
+                    <div className="md:w-1/2 py-2 ml-4 md:ml-[5px]">
+                        <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.facebook.com/profile.php?id=100094878867837">
+                            <img src="images/fbicon.png"></img>
+                        </a>
+                    </div>
+                    <div className="md:w-1/2 py-2 ml-4 md:ml-[-65px] ml-[7px]">
+                        <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.linkedin.com/company/jegnilife/?viewAsMember=true">
+                            <img src="images/linkedinicon.png"></img>
+                        </a>
+                    </div>
+                    <div className="md:w-1/2 p-2 md:ml-[-74px] ml-[-5px]">
                         <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.instagram.com/jegnilife/">
                             <img src="images/instagram.png"></img>
                         </a>

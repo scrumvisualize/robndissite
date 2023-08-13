@@ -14,14 +14,14 @@ const DialogForm = ({ isOpen, onClose }) => {
   };
 
   const onSubmit = (data) => {
+    // Close the dialog form immediately after on click on the submit button
+    closeDialog(); 
 
     const fetchData = async () => {
       try {
 
         // Make a POST request to the server 
         const res = await axios.post(`${appUrl}/service/emailtransfer`, data);
-        // Close the dialog form after successful submission
-        closeDialog(); 
         // Handle success (optional)
         if (res.data.success) {
           setHelperText(res.data.message);
@@ -36,7 +36,6 @@ const DialogForm = ({ isOpen, onClose }) => {
       }
     }
     fetchData();
-    reset();
   };
 
   return (

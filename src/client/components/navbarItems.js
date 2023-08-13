@@ -96,13 +96,13 @@ const NavbarItems = () => {
             </div>
             {isMobileMenuOpen && (
           <div className="md:hidden mt-2 space-y-4 bg-slate-500">
-            <Link to="/" className="block text-white font-bold">
+            <Link to="/" className="px-2 block text-white">
               Home
             </Link>
             <div className="relative">
               <button
                 onClick={openServicesPopup}
-                className="block text-white hover:text-gray-300 focus:text-gray-300 focus:outline-none"
+                className="block px-2 text-white hover:text-gray-300 focus:text-gray-300 focus:outline-none"
               >
                 Services{' '}
                 <svg
@@ -152,7 +152,7 @@ const NavbarItems = () => {
             <div className="relative">
               <button
                 onClick={openAboutUsPopup}
-                className="block text-white hover:text-gray-300 focus:text-gray-300 focus:outline-none"
+                className="block px-2 text-white hover:text-gray-300 focus:text-gray-300 focus:outline-none"
               >
                 About{' '}
                 <svg
@@ -181,9 +181,11 @@ const NavbarItems = () => {
                 </div>
               )}
             </div>
-            <Link to="/contact" className="text-white hover:text-gray-300">
-              Contact
-            </Link>
+            <div className="block px-2 py-2 text-gray-800">
+              <Link to="/contact" className="text-white mt-2 md:mt-4 hover:text-gray-300">
+                Contact
+              </Link>
+            </div>
           </div>
         )}
         </nav>

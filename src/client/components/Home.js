@@ -66,10 +66,21 @@ const Home = () => {
             </svg>
           </button>
         </div>
-        <div className="w-full md:w-3/5 mt-20 mr-2 md:mb-10">
+        <div className="portrait:hidden w-full md:w-3/5 mt-20 md:mr-10 md:ml-[-50px] md:mb-10">
           <div className="inset-0 overflow-hidden z-1">
-            <div className="flex items-center justify-center bg-black bg-opacity-0">
-              <h1 className="text-5xl md:text-7xl lg:text-[160px] font-bold text-transparent bg-clip-text bg-fill-us">
+            <div className="flex items-center justify-center bg-black bg-opacity-0 md:h-[300px] md:w-[720px]">
+              <h1 className="text-2xl md:text-5xl lg:text-[150px] font-bold text-transparent bg-clip-text bg-fill-us">
+              <span className="wave-animation"></span>
+                CARE & SUPPORT
+              </h1>
+            </div>
+          </div>
+        </div>
+
+        <div className="landscape:hidden w-full md:w-3/5 mt-10 md:mr-10 md:ml-[-20px] md:mb-10">
+          <div className="inset-0 overflow-hidden z-0">
+            <div className="flex items-center justify-center bg-black bg-opacity-0 md:h-[300px] md:w-[500px]">
+              <h1 className="text-5xl md:text-5xl font-bold text-transparent bg-clip-text bg-fill-us">
               <span className="wave-animation"></span>
                 CARE & SUPPORT
               </h1>

@@ -43,8 +43,8 @@ const AboutUs = () => {
                     </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 h-[600px] md:h-[700px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] md:mb-10 mb-72 justify-center">
-                    <p className="text-base mt-16 text-gray-700">
+                <div className="md:w-1/2 h-[600px] md:h-[700px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] md:mb-[84px] mb-72 justify-center">
+                    <p className="text-base mt-16 lg:mt-18 xl:mt-18 md:mt-24 text-gray-700">
                     Our team of dedicated professionals goes above and beyond to ensure that our clients receive the highest level of care and support throughout their journey with us. We understand that recovery and progress are deeply personal and sensitive processes, which is why we approach each client with empathy, compassion, and respect.
                     </p>
                     <p className="text-base mt-5 text-gray-700">
@@ -59,7 +59,7 @@ const AboutUs = () => {
                     <p className="text-base mt-5 text-gray-700">
                     Count on us to be your steadfast companions, guiding you towards a life marked by vitality and joy. Your health, happiness, and independence are our goals, and we are resolute in walking beside you as you achieve them. Trust Jegnilife for a holistic journey of growth, where your well-being remains at the heart of all we do.
                     </p>
-                    <button onClick={openDialogForm} className="w-full md:w-200 h-12 md:h-10 flex justify-center items-center my-2 md:mb-10 md:mt-10 select-none bg-[#F27267] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
+                    <button onClick={openDialogForm} className="w-full md:w-[200px] h-6 md:h-10 flex justify-center items-center my-2 md:mb-10 md:mt-10 md:mx-[150px] select-none bg-[#F27267] hover:bg-blue-700 text-xs text-white font-bold py-2 px-10 rounded-full">
                         Get Care & Support
                         <svg className="w-4 h-4 text-slate-50 mx-3 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
@@ -105,13 +105,16 @@ const AboutUs = () => {
                         </div>
                         <p className="text-base ml-2 mt-4 text-gray-700 px-8">Connecting with clients on regular basis</p>
                     </div>
-                    <button className="w-full md:w-200 h-12 md:h-10 flex justify-center items-center mb-20 md:mt-10 my-2 md:mb-20 select-none bg-[#F27267] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
+                    <button className="w-full md:w-200 h-16 md:h-10 flex justify-center items-center mb-20 md:mt-10 my-2 md:mb-20 select-none bg-[#F27267] hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                         Call us to know more ? <img src="images/phone.png" className="h-10 mr-3 md:h-10 md:mr-3" alt="Call" />
                         <a href="tel:1800800124" className='mt-1'> &#8594; 1800 800 124</a>
                     </button>
                 </div>
-                <div className="md:w-1/2 object-contain">
-                    <img src="images/caring2.png" alt="Image" className="w-full h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
+                {/* <div className="md:w-1/2 object-contain">
+                    <img src="images/abtus.PNG" alt="Image" className="w-full h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
+                </div> */}
+                <div className="md:w-1/2">
+                    <img src="images/abtus1.PNG" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
                 </div>
             </div>
             <div className="flex flex-col md:flex-row">

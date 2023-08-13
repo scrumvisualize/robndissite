@@ -26,7 +26,7 @@ const Contact = () => {
                         <img src="images/phone1.png" className="w-[80px] md:h-20 md:mt-2 mr-30" alt="Call" />
                     </div>
                     <h1 className="text-4xl font-bold mb-4 text-slate-600 md:ml-1">Call us</h1>
-                    <h3 className="text-2xl mb-4 text-slate-600 md:ml-2"> &#10230; 1800 800 124</h3>
+                    <a href="tel:1800800124" className='text-white text-sm py-2 md:py-0'><h3 className="text-2xl mb-4 text-slate-600 md:ml-2"> &#10230; 1800 800 124</h3></a>
                     <p className="text-2xl text-stone-600 mb-4 md:ml-2">
                         Monday - Friday <br /> &#10230; 9am-5:30pm AEST
                     </p>

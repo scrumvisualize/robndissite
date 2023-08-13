@@ -129,7 +129,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[800px] md:h-[720px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -147,7 +147,7 @@ const Services = () => {
                             regardless of disabilities. Engaging in social and recreational activities positively impacts individuals’
                             quality of life. This not only uplifts mood but also fosters personal 
                         </p>
-                        <button onClick={navigateCommunity} className="w-full flex justify-center items-center mb-20 my-2 md:mb-20 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
+                        <button onClick={navigateCommunity} className="w-full flex justify-center items-center mb-20 my-2 md:mb-16 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                             Find out more
                             <svg className="w-4 h-4 text-slate-50 mx-3 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
