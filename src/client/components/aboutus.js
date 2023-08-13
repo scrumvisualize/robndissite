@@ -29,7 +29,7 @@ const AboutUs = () => {
             <Navbar />
             <div className="flex flex-col md:flex-row bg-sky-50 ">
                 <div className="md:w-1/2 mb-48 md:mb-24 object-contain">
-                    <img src="images/aboutus.jpg" alt="Image" className="w-[770px] mt-1 mb-[-10px] bg-no-repeat bg-cover object-cover" />
+                    <img src="images/aboutus_1.jpg" alt="Image" className="w-[770px] mt-1 mb-[-10px] bg-no-repeat bg-cover object-cover" />
                     <div className="md:w-full bg-sky-50 p-8 flex flex-col justify-center">
                     <h1 className="text-xl font-bold mb-4 text-gray-600">About JEGNI LIFE</h1>
                     <div className="text-sm font-normal font-bold mb-2 text-gray-600">
@@ -113,8 +113,8 @@ const AboutUs = () => {
                 {/* <div className="md:w-1/2 object-contain">
                     <img src="images/abtus.PNG" alt="Image" className="w-full h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
                 </div> */}
-                <div className="md:w-1/2">
-                    <img src="images/abtus1.png" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
+                <div className="md:w-1/2 object-contain">
+                    <img src="images/abtus1.png" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover"/>
                 </div>
             </div>
             <div className="flex flex-col md:flex-row">
