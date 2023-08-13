@@ -35,7 +35,7 @@ app.post('/service/emailtransfer', async (req, res) => {
   console.log("Contact details in server side:: "+senderEmail, senderMobile, senderComments );
 
   const transporter = nodemailer.createTransport({
-    //service: 'smtpout.secureserver.net', // Replace with your godaddy email service provider
+    // Replace with your godaddy email service provider
     host: "smtpout.secureserver.net", //smtp.office365.com
     secure:true,
     secureConnection: false,
