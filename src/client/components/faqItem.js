@@ -18,7 +18,7 @@ const FaqItem = ({ question, answer }) => {
           &#9660;
         </span>
       </button>
-      {isExpanded && <div className="mt-2 md:text-center">{answer}</div>}
+      {isExpanded && <div className="mt-2 ml-4 md:ml-52 text-sm w-[600px] md:w-[900px] text-left">{answer}</div>}
     </div>
   );
 };
