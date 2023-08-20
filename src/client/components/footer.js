@@ -59,21 +59,6 @@ const Footer = () => {
                 </ul>
             </div>
 
-            {/* <div className="p-4 text-white">
-                <h3 className="text-3xl text-[#e6e4f0] font-bold mb-4">Contact Us</h3>
-                <ul className="md:flex-row">
-                    <li className="text-sm font-bold mb-2">1800 800 124</li>
-                    <li className="text-sm font-bold mb-2">jegnilifeinfo@gmail.com</li>
-                </ul>
-                <ul className="flex flex-col md:flex-row ">
-                    <li className="flex items-center mb-2">
-                        <img src="images/modernmap.png" className="h-[130px] md:h-[170px] ml-[-10px]" alt="AUS" />
-                    </li>
-                    <li className="flex items-center mt-2 w-auto md:h-30 md:w-30">
-                        <QRCode value={websiteUrl} />
-                    </li>
-                </ul>
-            </div> */}
             <div className="p-4 text-white">
                 <h3 className="text-3xl text-[#e6e4f0] font-bold mb-4">Quick Links</h3>
                 <ul>
@@ -99,7 +84,7 @@ const Footer = () => {
                             <img src="images/linkedinicon.png"></img>
                         </a>
                     </div>
-                    <div className="md:w-1/3 p-4 md:ml-[-90px] ml-[-5px]">
+                    <div className="md:w-1/3 p-4 md:ml-[-84px] ml-[-5px]">
                         <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.instagram.com/jegnilife/">
                             <img src="images/instagram.png"></img>
                         </a>
@@ -116,7 +101,7 @@ const Footer = () => {
                             <img src="images/linkedinicon.png"></img>
                         </a>
                     </div>
-                    <div className="md:w-1/2 p-2 md:ml-[-74px] ml-[-5px]">
+                    <div className="md:w-1/2 p-2 md:ml-[-74px] ml-[-3px]">
                         <a className="inline-block w-10 h-10 rounded-full bg-white p-2" href="https://www.instagram.com/jegnilife/">
                             <img src="images/instagram.png"></img>
                         </a>
@@ -128,8 +113,8 @@ const Footer = () => {
                 <img src="images/scroll.png" className="h-10 md:h-10 rounded-full" alt="Scroll to Top" />
             </button>
             <div className="flex">
-                <p className="text-xs text-[#ffffff] ml-8 mb-4 md:mb-2 md:ml-8">2023 @JEGNI LIFE Pty Ltd</p>
-                <p className="text-[8px] text-[#e8f2ff] ml-4 md:mt-1 md:px-8">Developed by Vinod Mathew</p>
+                <p className="text-xs text-[#ffffff] ml-8 mb-4 md:mb-2 md:ml-8">© 2023 JEGNI LIFE Pty Ltd</p>
+                <p className="text-[8px] text-[#e8f2ff] ml-4 md:mt-1 md:px-8">Designed & Developed by Vinod Mathew</p>
             </div>
         </div>
 

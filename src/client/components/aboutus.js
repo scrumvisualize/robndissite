@@ -3,6 +3,9 @@ import Navbar from './navbarItems';
 import TopSnippet from './topSnippet';
 import Footer from './footer';
 import DialogForm from './dialogForm';
+import AboutusVid from './aboutusVideo'
+import FaqList from './faqList'
+
 import { useNavigate } from "react-router-dom";
 
 const AboutUs = () => {
@@ -28,9 +31,9 @@ const AboutUs = () => {
             <TopSnippet />
             <Navbar />
             <div className="flex flex-col md:flex-row bg-sky-50 ">
-                <div className="md:w-1/2 mb-48 md:mb-24 object-contain">
+                <div className="md:w-1/2 mb-44 md:mb-24 object-contain">
                     <img src="images/aboutus_1.jpg" alt="Image" className="w-[770px] mt-1 mb-[-10px] bg-no-repeat bg-cover object-cover" />
-                    <div className="md:w-full bg-sky-50 p-8 flex flex-col justify-center">
+                    <div className="md:w-auto bg-sky-50 p-8 flex flex-col justify-center">
                     <h1 className="text-xl font-bold mb-4 text-gray-600">About JEGNI LIFE</h1>
                     <div className="text-sm font-normal font-bold mb-2 text-gray-600">
                         <span>Home </span>
@@ -43,7 +46,7 @@ const AboutUs = () => {
                     </p>
                     </div>
                 </div>
-                <div className="md:w-1/2 h-[600px] md:h-[700px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] md:mb-[84px] mb-72 justify-center">
+                <div className="md:w-1/2 h-[600px] md:h-[700px] bg-sky-50 px-4 flex flex-col ml-2 mt-[35px] md:mb-[84px] mb-[270px] justify-center">
                     <p className="text-base mt-16 lg:mt-18 xl:mt-18 md:mt-24 text-gray-700">
                     Our team of dedicated professionals goes above and beyond to ensure that our clients receive the highest level of care and support throughout their journey with us. We understand that recovery and progress are deeply personal and sensitive processes, which is why we approach each client with empathy, compassion, and respect.
                     </p>
@@ -59,7 +62,7 @@ const AboutUs = () => {
                     <p className="text-base mt-5 text-gray-700">
                     Count on us to be your steadfast companions, guiding you towards a life marked by vitality and joy. Your health, happiness, and independence are our goals, and we are resolute in walking beside you as you achieve them. Trust Jegnilife for a holistic journey of growth, where your well-being remains at the heart of all we do.
                     </p>
-                    <button onClick={openDialogForm} className="w-full md:w-[200px] h-6 md:h-10 flex justify-center items-center my-2 md:mb-10 md:mt-10 md:mx-[150px] select-none bg-[#F27267] hover:bg-blue-700 text-xs text-white font-bold py-2 px-10 rounded-full">
+                    <button onClick={openDialogForm} className="w-full md:w-[240px] h-10 md:h-10 flex justify-center items-center my-2 md:mb-10 md:mt-10 md:mx-[150px] select-none bg-[#F27267] hover:bg-blue-700 text-xs text-white font-bold py-2 px-10 rounded-full">
                         Get Care & Support
                         <svg className="w-4 h-4 text-slate-50 mx-3 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
@@ -67,7 +70,7 @@ const AboutUs = () => {
                     </button>
                 </div>
             </div>
-            <div className="flex flex-col md:flex-row md:mt-[2px] mt-[20px]">
+            <div className="flex flex-col md:flex-row md:mt-[2px] mt-[5px]">
                 <div className="md:w-1/2 bg-sky-50 p-8 flex flex-col justify-center border border-[#e3edfa]">
                     <h1 className="text-3xl font-bold mb-4 md:mt-[-150px] mt-[5px]">What we offer:</h1>
                     <div className="flex items-center mb-4">
@@ -110,23 +113,21 @@ const AboutUs = () => {
                         <a href="tel:1800800124" className='mt-1'> &#8594; 1800 800 124</a>
                     </button>
                 </div>
-                {/* <div className="md:w-1/2 object-contain">
-                    <img src="images/abtus.PNG" alt="Image" className="w-full h-[720px] bg-no-repeat bg-center bg-cover object-cover" />
-                </div> */}
                 <div className="md:w-1/2 object-contain">
-                    <img src="images/abtus1.png" alt="Image" className="w-full h-auto md:h-[720px] bg-no-repeat bg-center bg-cover object-cover"/>
+                    <img src="images/abtus1.png" alt="Image" className="w-[650px] h-auto md:h-[570px] bg-no-repeat bg-cover object-cover"/>
                 </div>
             </div>
+            <AboutusVid/>
             <div className="flex flex-col md:flex-row">
                  {/* border color >> border border-[#e3edfa] */}
-                <div className="md:w-1/2 bg-[#E8F2FF] p-8 flex flex-col justify-center">
+                <div className="md:w-1/2 bg-[#E8F2FF] p-2 flex flex-col justify-center">
                     <h1 className="text-3xl font-bold mb-4">Our Values</h1>
                     <div className="flex flex-wrap">
                         <div className="md:w-1/3 p-4">
                             <img
                                 src="images/empathy.png"
                                 alt="Image 1"
-                                className="w-full md:h-[158px] h-auto object-cover mb-4 rounded-lg"
+                                className="w-full md:h-[140px] h-auto object-cover mb-4 rounded-lg"
                             />
                             <p className="text-center text-base font-bold ml-2 mt-4 text-gray-700 px-2">Empathy</p>
                         </div>
@@ -165,7 +166,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className="md:w-1/2 bg-sky-50 p-8">
+                <div className="md:w-1/2 bg-sky-50 p-6">
                     <h1 className="text-3xl font-bold mb-4">Our values in a nutshell</h1>
                     <h3 className="text-normal text-gray-700 font-bold">Empathy:</h3>
                     <p className="text-gray-700 mb-4">
@@ -203,7 +204,7 @@ const AboutUs = () => {
             <div className="h-[230px] md:h-[230px] flex-wrap mx-auto relative p-4 bg-blue-100">
                 <div className="flex text-gray-700 justify-center items-center text-3xl md:text-2xl lg:text-4xl">
                     <div className="flex flex-row" >
-                        <h1 className="text-3xl md:text-2xl lg:text-4xl sans-serif mt-4 md:mt-10 ml-10">
+                        <h1 className="text-2xl md:text-2xl lg:text-4xl sans-serif mt-4 md:mt-10 ml-10">
                             We provide a list of services at JEGNI LIFE </h1>
                     </div>
                 </div>
@@ -211,8 +212,8 @@ const AboutUs = () => {
                     <p className='text-lg font-light sans-serif'>For a full list of services, please visit our <span className="text-normal text-violet-600 font-bold underline" onClick={navigateToService} >services</span> tab.<br />
                     </p>
                 </div>
-
             </div>
+            <FaqList/>
             {isDialogOpen && <DialogForm isOpen={isDialogOpen} onClose={closeDialog} />}
             <Footer />
         </div>

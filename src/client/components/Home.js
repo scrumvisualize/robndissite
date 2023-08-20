@@ -19,7 +19,7 @@ const Home = () => {
       <div className="h-96 md:h-[480px] mx-auto bg-[#E8F2FF] p-8 mt-2 mb-10 md:mb-2 flex flex-col md:flex-row">
         <div className="md:w-2/5">
           <h1 className="text-3xl ml-2 text-[#372540] font-bold whitespace-pre-line mb-6 items-start">
-            Embrace Your Journey, Empower Your Life: Together With JEGNI LIFE
+            Embrace Your Journey, Empower Your Life: <span className="text-[#D6AE38]">Together With JEGNI LIFE</span>
           </h1>
           <ul>
             <li>

@@ -44,7 +44,7 @@ const DialogForm = ({ isOpen, onClose }) => {
       {
         isOpen && (
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-            <div className="fixed bg-white p-8 rounded-lg shadow-lg w-[350px] md:w-[390px] mt-4 mb-6 z-9999">
+            <div className="fixed bg-white p-8 rounded-lg shadow-lg w-[350px] md:w-[390px] mt-[-40px] md:mt-[50px] mb-4 z-9999">
               <h2 className="text-2xl font-bold mb-4">Send us a message</h2>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-2">
@@ -145,7 +145,7 @@ const DialogForm = ({ isOpen, onClose }) => {
                         {...field}
                         id="comments"
                         className="w-full px-3 py-2 border border-gray-300 rounded"
-                        rows="4"
+                        rows="2"
                         onChange={(e) => {
                           field.onChange(e);
                           let val = e.target.value;

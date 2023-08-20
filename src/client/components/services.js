@@ -129,7 +129,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[800px] md:h-[720px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">

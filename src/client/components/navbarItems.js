@@ -73,7 +73,7 @@ const NavbarItems = () => {
                             </svg>
                             </button>
                             {aboutusToggle && (
-                                <div id="dropdownNavbar" className="z-50 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow absolute mt-1 w-44 dark:bg-gray-700 dark:divide-gray-600">
+                                <div id="dropdownNavbar" className="z-50 font-normal bg-white divide-y divide-gray-100 rounded-lg shadow absolute mt-1 w-36 dark:bg-gray-700 dark:divide-gray-600">
                                     <ul className="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                                         <li>
                                             <span onClick={() => navigate('/aboutus')} className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">About Us</span>

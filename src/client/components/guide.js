@@ -20,7 +20,7 @@ const Guide = () => {
             href="tel:1800800124"
             className="inline-block mt-6 select-none bg-yellow-300 hover:bg-blue-700 text-white font-bold py-2 px-6 md:px-10 rounded-full"
           >
-            <a href="tel:1800800124" className='mt-1'>Call 1800 800 124</a>
+            <span href="tel:1800800124" className='mt-1'>Call 1800 800 124</span>
             <svg
               className="w-4 h-4 text-slate-50 mx-3 mt-2 mb-2 dark:text-white hidden md:inline"
               aria-hidden="true"
