@@ -31,7 +31,7 @@ const AboutUs = () => {
             <TopSnippet />
             <Navbar />
             <div className="flex flex-col md:flex-row bg-sky-50 ">
-                <div className="md:w-1/2 mb-44 mb-[222px] md:mb-24 object-contain">
+                <div className="md:w-1/2 mb-44 mb-[224px] md:mb-24 object-contain">
                     <img src="images/aboutus_1.jpg" alt="Image" className="w-[770px] mt-1 mb-[-10px] bg-no-repeat bg-cover object-cover" />
                     <div className="md:w-auto bg-sky-50 p-6 flex flex-col justify-center">
                     <h1 className="text-xl font-bold mb-4 text-gray-600">About JEGNI LIFE</h1>
@@ -65,7 +65,7 @@ const AboutUs = () => {
                     <p className="text-base mt-5 text-gray-700">
                     Count on us to be your steadfast companions, guiding you towards a life marked by vitality and joy. Your health, happiness, and independence are our goals, and we are resolute in walking beside you as you achieve them. Trust Jegnilife for a holistic journey of growth, where your well-being remains at the heart of all we do.
                     </p>
-                    <button onClick={openDialogForm} className="w-full md:w-[240px] h-10 md:h-10 flex justify-center items-center my-2 mb-20 md:mb-10 md:mt-10 md:mx-[150px] select-none bg-[#F27267] hover:bg-blue-700 text-xs text-white font-bold py-2 px-10 rounded-full">
+                    <button onClick={openDialogForm} className="w-full md:w-[240px] h-10 md:h-10 flex justify-center items-center my-2 mb-28 md:mb-10 md:mt-10 md:mx-[150px] select-none bg-[#F27267] hover:bg-blue-700 text-xs text-white font-bold py-2 px-10 rounded-full">
                         Get Care & Support
                         <svg className="w-4 h-4 text-slate-50 mx-3 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                             <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
