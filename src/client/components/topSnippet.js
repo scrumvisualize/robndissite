@@ -16,13 +16,13 @@ const TopSnippet = () => {
     return (
         <div className="flex flex-col md:flex-row">
             <div className="portrait:hidden w-full md:w-1/3 bg-[#2e2657] flex items-center justify-center md:justify-start">
-                <img src="images/phone.png" className="w-[60px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[-40px] md:ml-0 md:mt-2" alt="Call" />
+                <img src="images/phone.png" className="w-[60px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[10px] md:ml-0 md:mt-2" alt="Call" />
                 <a href="tel:1800800124" className='text-white text-sm py-2 md:py-0'>Call 1800 800 124</a>
                 <span className="text-white px-2 py-2 md:hidden">|</span>
             </div>
 
             <div className="landscape:hidden w-full md:w-1/3 bg-[#2e2657] flex items-center justify-center md:justify-start">
-                <img src="images/phone.png" className="w-[30px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[-40px] md:ml-0 md:mt-2" alt="Call" />
+                <img src="images/phone.png" className="w-[30px] h-[60px] md:h-10 md:mb-2 md:mr-2 md:ml-28 ml-[-10px] md:ml-0 md:mt-2" alt="Call" />
                 <a href="tel:1800800124" className='text-white text-sm py-2 md:py-0'>Call 1800 800 124</a>
                 <span className="text-white px-2 py-2 md:hidden">|</span>
             </div>

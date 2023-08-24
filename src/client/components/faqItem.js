@@ -11,15 +11,16 @@ const FaqItem = ({ question, answer }) => {
     <div className="mb-2 bg-sky-50">
       <button
         onClick={toggleExpand}
-        className="flex justify-between items-center ml-2 md:ml-52 mp-2 w-[355px] md:w-[800px] bg-slate-200 p-2"
+        className="flex justify-between items-center mx-auto mp-2 w-[325px] md:w-[800px] bg-slate-200 p-2"
       >
-        <span className="text-normal">{question}</span>
+        <span className="text-normal text-left">{question}</span>
         <span className={`transform transition-transform ${isExpanded ? 'rotate-180' : 'rotate-0'}`}>
           &#9660;
         </span>
       </button>
-      {isExpanded && <div className="mt-2 ml-4 md:ml-52 text-sm w-[600px] md:w-[900px] text-left">{answer}</div>}
+      {isExpanded && <span className="mt-2 mx-auto text-[12px] w-[600px] md:w-[900px] text-center">{answer}</span>}
     </div>
+
   );
 };
 

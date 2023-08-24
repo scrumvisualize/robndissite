@@ -5,11 +5,11 @@ const FaqList = () => {
   const faqs = [
     {
       question: 'How can I contact Jegni Life team ?',
-      answer: 'You can contact our Jegni Life team by calling 1800 800 124 or emailing contact@jegnilife.com.au',
+      answer: 'Call directly our 1800 800 124 or emailing contact@jegnilife.com.au',
     },
     {
       question: 'What is the normal working days at Jegni life ?',
-      answer: 'We work Monday to Friday from 9:00 am to 5:30 pm',
+      answer: 'We work from Monday to Friday, from 9:00 am to 5:30 pm',
     },
     {
       question: 'How do I cancel Jegni Life services ?',

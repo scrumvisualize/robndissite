@@ -5,16 +5,15 @@ const Guide = () => {
     <div className="relative">
       <div className="w-full h-60 md:h-96 lg:h-[450px] bg-cover bg-no-repeat bg-center bg-guide-us mb-2">
         <div className="absolute inset-0 flex flex-col justify-center items-center text-white">
-          {/* <h1 className="text-xl md:text-2xl lg:text-4xl font-bold text-center px-4 md:px-8">
-            Let's connect and help you !
-          </h1> */}
           <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center md:px-5 py-2 md:py-8 text-white bg-black bg-opacity-20">
           Let's Connect and Help You!
           </h1>
 
           <p className="text-sm md:text-base lg:text-lg text-center px-4 md:px-8">
-            Our daily services will make your life easier <br />
-            Moving forward, we will make sure to keep everything up-to-date
+            Our daily services will make your life easier.
+          </p>
+          <p className="text-sm md:text-base lg:text-lg text-center px-4 md:px-8">
+            We will make sure to keep everything up-to-date.
           </p>
           <a
             href="tel:1800800124"

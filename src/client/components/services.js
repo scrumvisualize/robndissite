@@ -103,7 +103,7 @@ const Services = () => {
     return (
         <div className="mt-[-10px] p-2 bg-white">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-2">
-                <div className="relative h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="relative h-[600px] md:h-[705px] mt-[-30px] md:mt-[0px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -129,7 +129,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -137,7 +137,7 @@ const Services = () => {
                                     <img
                                         src="images/communitysupport.jpg"
                                         alt="Image"
-                                        className="w-auto mt-20 mb-5 rounded-[20px] md:ml-1 w-[300px] h-[250px]" />
+                                        className="w-auto mt-[60px] mb-5 rounded-[20px] md:ml-1 w-[300px] h-[255px]" />
                                 </div>
                             </div>
                         </div>
@@ -156,7 +156,7 @@ const Services = () => {
                     </div>
                 </div>
                 {/* #faf3eb */}
-                <div className="h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -182,7 +182,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[800px] md:h-[730px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
