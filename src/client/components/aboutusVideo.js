@@ -15,8 +15,8 @@ const AboutusVideo = () => {
                 JEGNI LIFE's service highlights
             </h1>
             <div className="flex flex-col md:flex-row bg-sky-50">
-                <div className="md:w-1/1 p-4 rounded-lg overflow-hidden relative mx-auto ">
-                    <div className="flex justify-center items-center mx-auto ml-0 w-[348px] md:w-[805px] h-[250px] md:h-[400px] rounded-lg relative">
+                <div className="md:w-1/1 p-4 rounded-lg overflow-hidden relative mx-auto bg-sky-50">
+                    <div className="flex justify-center items-center mx-auto ml-0 w-[370px] md:w-[690px] h-[210px] md:h-[388px] rounded-lg relative bg-sky-50">
                         <iframe
                             className="rounded-lg"
                             width="100%"
@@ -25,7 +25,7 @@ const AboutusVideo = () => {
                             title="YouTube video player"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
+                            allowFullScreen
                         ></iframe>
                     </div>
                 </div>

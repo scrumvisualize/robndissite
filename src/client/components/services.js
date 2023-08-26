@@ -102,8 +102,8 @@ const Services = () => {
 
     return (
         <div className="mt-[-10px] p-2 bg-white">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 lg:gap-2">
-                <div className="relative h-[600px] md:h-[705px] mt-[-30px] md:mt-[0px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-2">
+                <div className="relative h-[600px] md:h-[605px] mt-[-30px] md:mt-[0px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -118,8 +118,7 @@ const Services = () => {
                         <h3 className="text-2xl mb-5 font-bold">Supported Independent Living</h3>
                         <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             Supported Independent Living (SIL) is a type of support provided to individuals with disabilities who
-                            have higher support needs. It is aimed to help these individuals live as independently as possible
-                            while receiving assistance with various daily..
+                            have higher support needs.
                         </p>
                         <button onClick={navigateIndependent} className="w-full flex justify-center items-center mb-20 my-2 md:mb-20 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                             Find out more
@@ -129,7 +128,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[605px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -137,17 +136,16 @@ const Services = () => {
                                     <img
                                         src="images/communitysupport.jpg"
                                         alt="Image"
-                                        className="w-auto mt-[60px] mb-5 rounded-[20px] md:ml-1 w-[300px] h-[255px]" />
+                                        className="w-auto mt-[40px] mb-5 rounded-[20px] md:ml-1 w-[300px] h-[255px]" />
                                 </div>
                             </div>
                         </div>
                         <h3 className="text-2xl mb-4 font-bold">Community Support</h3>
                         <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             It is evident that community support plays a crucial role in enriching the lives of individuals
-                            regardless of disabilities. Engaging in social and recreational activities positively impacts individuals’
-                            quality of life. This not only uplifts mood but also fosters personal 
+                            regardless of disabilities. Engaging in social and recreational activities 
                         </p>
-                        <button onClick={navigateCommunity} className="w-full flex justify-center items-center mb-20 my-2 md:mb-16 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
+                        <button onClick={navigateCommunity} className="w-full flex justify-center items-center mb-20 my-2 md:mb-10 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                             Find out more
                             <svg className="w-4 h-4 text-slate-50 mx-3 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 8 14">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 13 5.7-5.326a.909.909 0 0 0 0-1.348L1 1" />
@@ -156,7 +154,7 @@ const Services = () => {
                     </div>
                 </div>
                 {/* #faf3eb */}
-                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[605px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -171,8 +169,7 @@ const Services = () => {
                         <h3 className="text-2xl mb-4 font-bold">Community Nursing</h3>
                         <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             At Jegni Life we offer a wide range of low-intensity nursing support to the individuals who have chronic health
-                            conditions, disabilities, or other medical conditions that impact their ability to independently
-                            perform daily activities. The program is designed to provide essential care and assistance..
+                            conditions, disabilities, or other medical conditions that impact their ability
                         </p>
                         <button onClick={navigateCommunityNursing} className="w-full flex justify-center items-center mb-20 my-2 md:mb-20 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                             Find out more
@@ -182,7 +179,7 @@ const Services = () => {
                         </button>
                     </div>
                 </div>
-                <div className="h-[600px] md:h-[705px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
+                <div className="h-[600px] md:h-[605px] p-6 bg-[#f2faeb] rounded-md flex items-center justify-center">
                     <div className="container">
                         <div className="elementor-widget-container transform transition-transform duration-700 ease-in-out hover:scale-110">
                             <div className="elementor-icon-wrapper">
@@ -197,8 +194,7 @@ const Services = () => {
                         <h3 className="text-2xl mb-4 font-bold">Group Based Activities</h3>
                         <p className="max-w-lg text-normal font-light font-weight: 100 mb-5 font-semi leading-normal text-gray-900 dark:text-white font-sans">
                             Jegni Life aims to provide a platform for individuals to engage in community participation and group
-                            activities, with a particular focus on improving social interactions and mental well-being.
-                            Identifying Enjoyable Groups: Jegni Life helps individuals to find and connect
+                            activities, with a particular focus on improving social and mental well-being
                         </p>
                         <button onClick={navigateGroupBased} className="w-full flex justify-center items-center mb-20 my-2 md:mb-20 select-none bg-indigo-950 hover:bg-blue-700 text-white font-bold py-2 px-10 rounded-full">
                             Find out more
