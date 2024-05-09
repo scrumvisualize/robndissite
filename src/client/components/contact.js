@@ -28,7 +28,7 @@ const Contact = () => {
                     <h1 className="text-4xl font-bold mb-4 text-slate-600 md:ml-1">Call us</h1>
                     <a href="tel:1800800124" className='text-white text-sm py-2 md:py-0'><h3 className="text-2xl mb-4 text-slate-600 md:ml-2"> &#10230; 1800 800 124</h3></a>
                     <p className="text-2xl text-stone-600 mb-4 md:ml-2">
-                        Monday - Friday <br /> &#10230; 9am-5:30pm AEST
+                        Monday - Friday <br /> &#10230; 9:00am-5:30pm AEST
                     </p>
                 </div>
                 <div className="md:w-1/2 bg-sky-50 p-8">
@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="flex flex-col md:flex-row">
                         <img src="images/mail-icon_b.png" className="w-[80px] h-20 md:mt-2 mr-30" alt="Call" />
                     </div>
-                    <h1 className="text-4xl font-bold mb-4 text-slate-600">Send us a messaage</h1>
+                    <h1 className="text-4xl font-bold mb-4 text-slate-600">Send us a message</h1>
                     <p className="text-gray-700 mb-4 text-gray-600">
                         Please click the below button to send us a message. We will respond to your <br /> queries as soon as we can !
                     </p>
