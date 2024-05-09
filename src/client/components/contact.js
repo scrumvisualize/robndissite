@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="flex flex-col md:flex-row">
                         <img src="images/mail-icon_b.png" className="w-[80px] h-20 md:mt-2 mr-30" alt="Call" />
                     </div>
-                    <h1 className="text-4xl font-bold mb-4 text-slate-600">Send us a message</h1>
+                    <h1 className="text-4xl font-bold mb-4 text-slate-600">Send us a messaage</h1>
                     <p className="text-gray-700 mb-4 text-gray-600">
                         Please click the below button to send us a message. We will respond to your <br /> queries as soon as we can !
                     </p>
