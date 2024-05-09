@@ -23,17 +23,17 @@ const sendGridFromEmail = process.env.SENDGRID_FROM_EMAIL_ADDRESS;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// const corsOptions = {
-//   origin: '*',
-//   credentials: true,
-//   optionSuccessStatus: 200,
-// };
-
 const corsOptions = {
-  origin: 'https://www.jegnilife.com.au', // Allow requests from this origin
-  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specified HTTP methods
-  allowedHeaders: ['Content-Type', 'Authorization'], // Allow specified headers
+  origin: '*',
+  credentials: true,
+  optionSuccessStatus: 200,
 };
+
+// const corsOptions = {
+//   origin: 'https://www.jegnilife.com.au', // Allow requests from this origin
+//   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specified HTTP methods
+//   allowedHeaders: ['Content-Type', 'Authorization'], // Allow specified headers
+// };
 
 app.use(cors(corsOptions)) // Use this after the variable declaration
 
