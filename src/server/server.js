@@ -30,7 +30,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // };
 
 const corsOptions = {
-  origin: 'https://www.jegnilife.com.au', // Allow requests from this origin
+  origin: 'https://jegnilife.com.au', // Allow requests from this origin
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allow specified HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allow specified headers
 };

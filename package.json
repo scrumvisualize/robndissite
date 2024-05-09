@@ -30,7 +30,7 @@
     "tailwindcss": "^3.3.2",
     "web-vitals": "^2.1.4"
   },
-  "proxy": "https://www.jegnilife.com.au",
+  "proxy": "https://jegnilife.com.au",
   "scripts": {
     "server": "node src/server/server.js",
     "client": "react-scripts start",
