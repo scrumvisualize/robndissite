@@ -17,8 +17,16 @@ const Home = () => {
       <Navbar />
       {/* bg-[#cce5ed] */}
       <div className="h-96 md:h-[480px] mx-auto bg-[#E8F2FF] p-8 mt-2 mb-10 md:mb-2 flex flex-col md:flex-row">
+      
         <div className="md:w-2/5">
-          <h1 className="text-3xl ml-2 text-[#372540] font-bold whitespace-pre-line mb-6 items-start">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4">
+            <img
+              src="images/NDIS-registered-provider-logo.png"
+              className="h-[50px] md:h-[70px] pl-[10px] mb-[10px] md:pl-50 md:mb-0"
+              alt="AUS"
+            />
+          </div>
+          <h1 className="text-2xl ml-2 text-[#372540] font-bold whitespace-pre-line mb-6 items-start">
             Embrace Your Journey, Empower Your Life: <span className="text-[#D6AE38]">Together With JEGNI LIFE</span>
           </h1>
           <ul>

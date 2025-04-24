@@ -46,6 +46,13 @@ const DialogForm = ({ isOpen, onClose }) => {
           <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
             <div className="fixed bg-white p-8 rounded-lg shadow-lg w-full md:w-[390px] lg:w-[450px] mx-auto mt-[-40px] md:mt-[50px] mb-4 z-9999">
               <h2 className="text-2xl font-bold mb-4">Send us a message</h2>
+              <div className="flex flex-col justify-end items-end h-full mt-4">
+                <img
+                  src="images/NDIS-registered-provider-logo.png"
+                  className="h-[50px] md:h-[50px] mb-[10px] md:mb-0"
+                  alt="NDIS Logo"
+                />
+              </div>
               <form onSubmit={handleSubmit(onSubmit)}>
                 <div className="mb-2">
                   <label htmlFor="email" className="block font-bold mb-2">

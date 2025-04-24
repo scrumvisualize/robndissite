@@ -50,9 +50,23 @@ const Footer = () => {
                     <li className="text-sm font-bold mb-2">contact@jegnilife.com.au</li>
                     {/* <li className="text-sm font-bold mb-2">NDIS Provider Registration ID: 00-ABCD12345</li>
                     <li className="text-sm font-bold mb-2">ABN 00 123 000 111</li>  */}
-                    <span>
+                    {/* <span>
                         <img src="images/modernmap.png" className="h-[130px] md:h-[150px] ml-[-30px] md:ml-[-30px]" alt="AUS"/>
-                    </span>
+                        <img src="images/modernmap.png" className="h-[130px] md:h-[150px] ml-[-30px] md:ml-[-30px]" alt="AUS"/>
+                    </span> */}
+
+                    <div className="flex flex-col md:flex-row items-start md:items-center gap-4 mt-4">
+                        <img
+                            src="images/modernmap.png"
+                            className="h-[130px] md:h-[150px] ml-[-30px] md:ml-[-30px]"
+                            alt="AUS"
+                        />
+                        <img
+                            src="images/registered-ndis-provider-transparent-300x139.png"
+                            className="h-[100px] md:h-[80px] pl-[4px] mb-[20px] md:pl-0 md:mb-0 rounded-[10px]"
+                            alt="AUS"
+                        />
+                    </div>
                     <span className="mt-2 w-auto md:h-40 md:w-40">
                         <QRCode value={websiteUrl} />
                     </span>

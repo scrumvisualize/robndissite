@@ -117,7 +117,7 @@ const AboutUs = () => {
                     </button>
                 </div>
                 <div className="md:w-1/2 object-contain">
-                    <img src="images/abtus1.png" alt="Image" className="w-[650px] h-auto md:h-[570px] bg-no-repeat bg-cover object-cover"/>
+                    <img src="images/abtus1.png" alt="Image" className="w-full h-auto md:h-[750px]"/>
                 </div>
             </div>
             <AboutusVid/>
